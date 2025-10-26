@@ -1,0 +1,134 @@
+/* ===========================
+   Custom CSS Template
+   =========================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  padding: 20px;
+}
+
+
+.card {
+  width: 300px;
+  height: 380px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: rgb(40, 40, 41);
+
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* ---------- Top Section ---------- */
+.card img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.card .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.card .top button {
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.card .top button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ---------- Center Section ---------- */
+.card .center h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 20px;
+}
+
+.card .center span {
+  font-size: 10px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.card .center h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 10px 20px;
+}
+
+.card .center .exp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid white;
+  height: 35px;
+  margin: 20px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.card .center .exp h3 {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* ---------- Bottom Section ---------- */
+.card .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.card .bottom h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card .bottom h3 {
+  margin: 5px 0 0 0;
+  font-size: 13px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.card .bottom button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.card .bottom button:hover {
+  background-color: #444;
+  color: white;
+}
