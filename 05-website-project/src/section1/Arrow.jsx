@@ -1,0 +1,9 @@
+import { ArrowUpRight } from "lucide-react";
+
+const Arrow = () => {
+  return (
+    <div className='text-8xl'><ArrowUpRight size={82}  /></div> 
+  )
+}
+
+export default Arrow
